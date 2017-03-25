@@ -62,7 +62,7 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li class="chapter" data-level="" data-path="preface.html"><a href="preface.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
 <li class="chapter" data-level="1" data-path="heridity-and-evolution.html"><a href="heridity-and-evolution.html"><i class="fa fa-check"></i><b>1</b> Heridity and Evolution</a><ul>
 <li class="chapter" data-level="1.1" data-path="heridity-and-evolution.html"><a href="heridity-and-evolution.html#heredity-and-variation"><i class="fa fa-check"></i><b>1.1</b> HEREDITY AND VARIATION</a><ul>
 <li class="chapter" data-level="1.1.1" data-path="heridity-and-evolution.html"><a href="heridity-and-evolution.html#heredity"><i class="fa fa-check"></i><b>1.1.1</b> HEREDITY</a></li>
@@ -91,6 +91,7 @@
 </div>
 <div id="preface" class="section level1 unnumbered">
 <h1>Preface</h1>
+<p>this is preface page</p>
 
 </div>
             </section>
@@ -113,8 +114,8 @@ require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
 "github": false,
-"facebook": true,
-"twitter": true,
+"facebook": false,
+"twitter": false,
 "google": false,
 "weibo": false,
 "instapper": false,
@@ -126,14 +127,16 @@ gitbook.start({
 "family": "sans",
 "size": 2
 },
-"edit": {
-"link": null,
-"text": null
-},
+"edit": null,
 "download": null,
 "toc": {
-"collapse": "subsection"
-}
+"collapse": "subsection",
+"scroll_highlight": true
+},
+"toolbar": {
+"position": "fixed"
+},
+"search": true
 });
 });
 </script>
